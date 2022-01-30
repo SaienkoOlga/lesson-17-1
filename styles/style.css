@@ -1,0 +1,69 @@
+@import url("keyframes.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-resolution: 0;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  border: 8px solid black;
+  border-top-color: red;
+  border-radius: 50%;
+
+  animation-name: spinner-rotate;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.balls {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blue;
+
+  /* animation-name: balls-jumping;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; */
+}
+
+.ball-1 {
+  animation-name: ball-1-jumping;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.ball-2 {
+  animation-name: ball-2-jumping;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.ball-3 {
+  animation-name: ball-3-jumping;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
