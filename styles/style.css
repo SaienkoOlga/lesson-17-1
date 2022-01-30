@@ -40,11 +40,6 @@ body {
   height: 20px;
   border-radius: 50%;
   background-color: blue;
-
-  /* animation-name: balls-jumping;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite; */
 }
 
 .ball-1 {
